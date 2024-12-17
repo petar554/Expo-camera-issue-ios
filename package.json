@@ -1,0 +1,55 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "main": "expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "expo": {
+    "doctor": {
+      "reactNativeDirectoryCheck": {
+        "listUnknownPackages": false
+      }
+    }
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "1.23.1",
+    "@react-native/metro-config": "^0.76.5",
+    "@react-navigation/drawer": "^7.1.1",
+    "@react-navigation/native": "^7.0.14",
+    "@react-navigation/stack": "^7.1.0",
+    "axios": "^1.7.7",
+    "expo": "52.0.19",
+    "expo-camera": "16.0.10",
+    "expo-dev-client": "~5.0.6",
+    "expo-status-bar": "~2.0.0",
+    "react": "18.3.1",
+    "react-native": "0.76.5",
+    "react-native-compressor": "^1.10.3",
+    "react-native-dotenv": "^3.4.11",
+    "react-native-gesture-handler": "~2.20.2",
+    "react-native-image-resizer": "^1.4.5",
+    "react-native-reanimated": "~3.16.1",
+    "react-native-safe-area-context": "4.12.0",
+    "react-native-screens": "~4.1.0",
+    "react-native-svg": "15.8.0",
+    "react-native-svg-transformer": "^1.5.0",
+    "react-native-vector-icons": "^10.2.0",
+    "string-width": "^4.2.3",
+    "strip-ansi": "^6.0.1",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/babel__core": "^7.20.5",
+    "@types/babel__generator": "^7.6.8",
+    "@types/babel__template": "^7.4.4",
+    "@types/babel__traverse": "^7.20.6",
+    "@types/react": "^18.3.12",
+    "@types/react-navigation": "^3.0.8"
+  },
+  "private": true
+}
